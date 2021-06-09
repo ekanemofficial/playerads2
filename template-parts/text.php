@@ -1,0 +1,1 @@
+Playerads is a Sport Oriented, Marketing and Advertising Organisation With An Online Hub that Create Alternative access to Sport Enthusiast. We aim to Reach, Identify, Nurture and Expose Talented Athletes to the World of Professional Sport.

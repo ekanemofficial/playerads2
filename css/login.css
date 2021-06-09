@@ -1,0 +1,227 @@
+body{
+	font-family: 'poppins', sans-serif;
+}
+.form-wrapper{
+	padding: 30px 20px 10px 20px;
+	z-index: 3000;
+}
+.form-group{
+	margin-bottom: 7px;
+	/*background: red*/
+}
+.wrapper{
+	padding: 0;margin: 50px auto;height: 100vh;overflow: hidden;"
+}
+.p-control{
+	width: 100% !important;
+	height: auto;
+	text-align: left;
+}
+.col-x h1{
+	padding: 10px;
+	font-size:30px;
+}
+.content a{
+	color: #555;
+	font-size: 13px;
+}
+.loginForm{
+	padding-top: 10px;
+}
+.loginForm input{
+	border:1px solid #ccc;
+	border-radius: 0;
+	font-size: 12px;
+	background: #fff;
+	padding: 1px 14px;
+}
+.loginForm input:focus{
+	box-shadow: 1px 1px 4px #ccc  !important;
+	outline: 0px !important;
+	border: 1px solid #ccc;
+}
+.col-x, .col-y{
+	background: #fff;
+	border:1px solid #ccc;
+	margin-bottom: 10px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.col-y span{
+	padding: 20px;
+	display: block;
+	font-size: 13px;
+}
+.or{
+	font-size: 12px;
+}
+.or::before{
+	content: "";
+	position: absolute;
+	top: 12px;
+	left: 0;
+	width: 42%;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ced4da;
+}
+.or::after{
+	content: "";
+	position: absolute;
+	top: 12px;
+	right: 0;
+	width: 42%;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ced4da;
+}
+.face{
+	font-size: 13px;
+	padding: 11px;
+	margin-bottom: 10px;
+	border: 0;
+}
+.box{
+	background: #fff;
+	padding: 1px 15px;
+	margin-bottom: 5px;
+}
+.box h4{
+	margin-top: 20px;
+	text-transform: uppercase;
+	/*line-height: 30px;*/
+}
+.box form input{
+	padding: 11px 10px;
+	height: auto;
+	font-size: 12px;
+	line-height: 5px;
+	background: #fff;
+	border: 1px solid #eee;
+	box-shadow: 0;
+	outline: 5px solid #fff;
+	border-radius: 3px;
+	font-family: 'poppins' sans-serif;
+	font-weight: 300;
+}
+.box select{
+	box-shadow: 0;border: 1px solid #eee;width: 100%;font-size: 12px;padding: 10px 10px;line-height: 15px;appearance:none;border-radius: 3px;
+	font-family: 'poppins' sans-serif;color: #888;
+}
+.box select:focus, .box input:focus{
+	border:1px solid #ccc;
+	outline: 0 !important;
+	box-shadow:0 !important;
+	background:#fff;
+}
+.box select::after{
+  content: "\f0da";
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color:#000;
+  font-size: 40px;
+}
+.box form div {
+	position: relative;
+}
+.box div label{
+	position: absolute;
+	top: 10px;
+	left: 0;
+	color: #999;
+	transition: .5s;
+	pointer-events: none;
+	padding-left: 15px;
+	font-size: 11px;
+	font-weight: normal;
+}
+.box input:focus ~ label, 
+.box input:valid ~ label
+{
+	top: 5px;
+	font-size: 10px;
+	left: 0;
+	font-weight: bold;
+	color: #999;
+	
+}
+.loginBtn{
+	padding: 11px;
+	border: 0;
+}
+
+.wrapper .textBox h2{
+	font-size: 4rem;
+	font-weight: 300;
+	color: #fff;
+	letter-spacing: -1px;
+	margin-top: 60px;
+}
+.wrapper .textBox p{
+	margin-bottom: 10px;
+	line-height: 20px;
+	color: #fff;
+	font-size: 14px;
+}
+.wrapper .textBox img{
+	max-width: 500px;
+	height: auto;
+}
+
+
+
+@media (max-width: 860px)
+{
+	.box-me{
+		padding: 10px 0px;
+	}
+	.wrapper .textBox img{
+		max-width: 300px;
+		height: auto;
+		z-index: 0;
+		display: none;
+	}
+	.wrapper{
+		padding: 0;margin: 0px auto;height: auto;"
+	}
+	.wrapper .textBox p h2{
+		display: block;
+		color: #fff;
+		z-index: 5;
+	}
+	.wrapper .textBox p{
+		color: #fff !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

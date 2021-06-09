@@ -1,0 +1,470 @@
+.countdown{
+	background: url(../img/wall6.jpg)no-repeat;
+	background-size: cover;
+	background-position: bottom;
+	padding: 0px 20px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    /*z-index: 2;*/
+}
+.market-desc{
+	margin-top: 10px;
+	word-wrap: break-word;
+	background:#222;
+	padding: 0px 0px;
+}
+.market-desc p, .market-desc h4,  .market-desc h5{
+	padding: 0 10px;
+	color: #444;
+}
+.market-desc h4{
+	font-size: 15px;
+	color: #208fee;
+}
+.market-desc h5{
+	font-size: 14px;
+}
+.market-desc p{
+	font-size: 13px;
+}
+
+.condtions-wrapper{
+	padding: 10px;
+}
+
+.market-conditions li{
+	list-style: initial;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+
+/**/
+.postInfo{
+	padding: 0px 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-items: center;
+}
+.apply{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-items: center;
+}
+.countdown h1{
+	margin-bottom: 4px;
+	color: #fff;
+}
+.countdown p{
+	font-size: 12px;
+	color: #ccc;
+	line-height: -50px;
+	text-shadow: 1px 1px 5px #000;
+	text-align: center;
+}
+.countdown-item h1{
+	font-size: 30px !important;
+}
+#day{
+	font-size: 20px;
+}
+.postInfo h4 span{
+	font-size: 12px;
+	letter-spacing: -1px;
+	color: #444;
+}
+.postInfo h4{
+	font-size: 16px;
+	color: #222;
+}
+.stats{
+	text-align: center;
+}
+.stats-item{
+	background: linear-gradient(-45deg,#4481eb, #007bff);
+	color: #fff;
+	padding: 10px 10px;
+	margin-bottom: 5px;
+}
+.stats-item p{
+	font-size: 12px;
+	letter-spacing: -1px;
+}
+.stats-item h3{
+	line-height: 0;
+}
+
+.filter-sub li{
+	background: #fff;
+	margin-bottom: 4px;
+}
+.filter-sub li a{
+	font-size: 12px;
+	display: block;
+	padding: 8px 10px;
+	color: #444;
+}
+.filter-sub li a i{
+	color: #208fee;
+	margin-right: 5px;
+}
+.filter-sub li a:hover{
+	text-decoration: none;
+	background: linear-gradient(-45deg,#4481eb, #007bff);;
+	color: #fff;
+}
+.filter-sub li a:hover i{
+	color: #fff;
+}
+.market-desc .mkte-subtitle{
+	
+}
+
+.panel-title-v:after{
+	content: "\f0d7";
+	font-family: 'Fontawesome';
+	position: absolute;
+	top: 6px;
+	right: 20px;
+	color: #fff;
+	font-size: 20px;
+}
+
+/*season*/
+
+
+
+.careerInfo{
+	width: 100%;
+	/*margin-left: -10px ;*/
+	/*display: flex;flex-direction: column;justify-content: center;align-items: center;text-align: center;*/
+}
+
+
+.match:before{
+  content: "\f0d9";
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 30%;
+  left: -12px;
+  color:#f6f6f7;
+  font-size: 40px;
+}
+
+.match {
+    font-family: 'Dosis', Trebuchet MS, Helvetica, Arial, sans-serif;
+}
+.match {
+    background-color: #f6f6f7;
+    padding: 5px 5px;
+}
+
+.league{
+	background:#f6f6f7;
+  	padding: 25.2px 5px;
+  	border: 1px solid #f6f6f7
+    font-family: 'Dosis', Trebuchet MS, Helvetica, Arial, sans-serif;
+
+}
+.league h5, .match h5, .season h5{
+	line-height: 0;
+	font-size: 11px;
+	letter-spacing: 0px;
+	/*color: #444;*/
+
+}
+.league h2, .match h2, .season h2{
+	font-size: 14px;
+	color: #0d3455;
+	font-weight: 600;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	text-transform: uppercase !important;
+	letter-spacing: -1px;
+}
+.season{
+    background:rgba(23, 29, 39, 0.8);
+    padding: 7.5px 5px;
+    border: 0px solid rgba(23, 29, 39, 0.8);
+    box-shadow: 0 0 16px #222;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Dosis', Trebuchet MS, Helvetica, Arial, sans-serif;
+}
+.season h2{
+	color: #fff;
+	font-weight: normal !important;
+	font-size: 12px;
+	letter-spacing: 0;
+	margin-bottom: 9px;
+}
+.season h5{
+	color: #007bff;
+	font-size: 11px;
+}
+
+.friends-item{
+	padding-bottom: 10px;
+	background:#f6f6f7;
+	-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    margin-bottom: 10px;
+}
+.friends-item h5{
+	margin-bottom: 0px;
+	font-size: 12px;
+	color: #444
+}
+.friends-item p{
+	margin-bottom: 0;
+	font-size: 11px;
+	color: #444;
+}
+.friends-item i{
+	color: #007bff;
+}
+.friends-item img{
+	transition: .5s all ease-in-out;
+}
+.friends-item img:hover{
+	transform: scale(1.03)
+
+}
+.friends-item a h5:hover, .friends-item a:hover {
+	text-decoration: none;
+	color: #007bff;
+}
+.friends-item a h5:focus, .friends-item a:focus {
+	text-decoration: none;
+}
+.friends-item a:hover i{
+	color: #444;
+}
+.friends-item  .friends-btn{
+	font-size: 11px !important;
+	border:0;
+	padding: 3px 8px;
+}
+.friends-item  .friends-btn:focus{
+	border:none;
+	outline: none;
+}
+
+.friends-item .img-wrap{
+	overflow: hidden;height: 195px;
+}
+.friends-item img{
+	width: 100% !important;
+	/*max-width: 195px;*/
+	height: 100%;
+	margin: 0 auto;
+}
+.create_marketForm label{
+	font-weight: 600;
+	font-size: 12px;
+	color: #222;
+}
+.create_marketForm select{
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+}
+.create_marketForm select:after{
+  content: "\f0da";
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 50%;
+  right: 40px;
+  font-size: 40px;
+  /*color:rgba(23, 29, 39, 0.8);*/
+  color: red;
+}
+
+.notif2{
+	display: block;
+	background:#fff;
+	margin-bottom: 5px !important;
+}
+.notif2-wrap-img{
+	padding: 7px;
+	margin: 0 auto;
+	border:0px solid red;
+}
+.notif2-wrap-img img{
+	margin: 0 auto;
+}
+.notif2-wrap-items{
+	border: 0px solid red;
+}
+.notif2-wrap-items h5{
+	color: #337ab7;
+	margin-bottom: 1px;
+	letter-spacing: -0.5px;
+	font-size: 14px;
+}
+.notif2-wrap-items h5 a:hover{
+	text-decoration: none;
+}
+.notif2-wrap-items h5 span{
+	margin-left: 10px;
+	font-size: 12.5px;
+	color: #444 !important;
+}
+.notif2-wrap-items p{
+	color: #666;
+	font-size: 12px;
+	margin-bottom: 2px;	
+}
+.filter-sub li a:focus, .filter-sub li a:visited{
+	background:linear-gradient(-45deg,#4481eb, #007bff);
+	text-decoration: none;
+	color: #fff;
+}
+.filter-sub li a:visited, .filter-sub li a i{
+	color: #fff;
+}
+.filter-sub li a i{
+	color: #4481eb;
+}
+.social-reply{
+	margin-bottom: 10px;
+}
+.social-reply i{
+	color: #4481eb;
+}
+.social-reply button, .social-reply a{
+	border:0px solid #ccc;
+	background:#f6f6f7;
+}
+.social-reply button:hover i , .social-reply button:hover, .social-reply a.btn:hover, .social-reply a.btn:hover i{
+	color: #fff;
+	background:#4481eb;
+	border:0px solid #4481eb;
+}
+
+/*chats style*/
+.tab-content{
+	background:#fff;
+	padding: 0 0px;
+	margin-top: 0px;
+}
+#compose ,#inbox, #sent, #saved, #trash, #chat{
+	padding:5px 10px;
+	line-height: 0;
+}
+#compose h3,#inbox h3, #sent h3, #saved h3, #trash h3, #chat h3 {
+	/*color: #fff !important;*/
+}
+.tab-pane{
+	background:red;
+}
+
+.msg_body{
+	background:#f6f6f7 !important; 
+	padding: 10px 15px;
+}
+
+
+.postFeed{
+	margin-bottom: -15px !important;
+	background: #fff;
+}
+.post-text {
+	font-size: 13px !important;
+	margin-bottom: 10px;
+}
+.post-img img{
+	margin: 0 auto !important;
+}
+.message_body ul li{
+	font-size: 13px;
+	margin-bottom: 5px;
+	list-style: circle;
+	margin-left: 20px;
+}
+.post-btns {
+	display: flex;
+	justify-content: space-around;
+	margin: 0 !important;
+}
+
+.post-btns button{
+	/*margin-left: 10px !important;*/
+	margin: 0 !important;
+	margin-right: 10px !important;
+	/*border:0;*/
+}
+.post-btns i{
+	color: #255b88;
+}
+.post-btns button:hover i{
+	/*background: #255b88;*/
+	color: #fff;
+}
+.post-btns button:hover{
+	background: #255b88;
+	color: #fff;
+	border: 1px solid #255b88;
+}
+.post-btns button:focus{
+	border: 1px solid #255b88;
+	outline: 0  !important;
+	box-shadow: 0 !important;
+}
+
+#commentForm textarea{
+	box-shadow: inset 0 0px 0px rgb(0 0 0 / 8%);
+	font-size: 12px;
+	padding: 10px;
+	box-shadow: 0 !important;
+	border:1px solid #ddd !important;
+	outline: 0;
+	
+}
+#postCommentForm{
+	display: flex;
+}
+.postCommentForm .commentField{
+	margin-right: 10px;
+	font-size: 11px;
+	margin-right: 10px;
+}
+
+.post-img{
+	/*background: red*/
+}
+
+/*video post*/
+.videos .video-item{
+	max-height: 157px !important;
+	padding-bottom: 15px !important;
+	clear: both;
+}
+.videos .vid-col{
+	padding: 5px !important;
+	margin-bottom: 10px;
+}
+.videos .video-item video{
+	border: 2px solid #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
