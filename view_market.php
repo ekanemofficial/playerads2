@@ -2,7 +2,7 @@
 
 		<!-- nav ends here -->
 
-		<?php require_once('template-parts/view_cover.php');?>
+		<?php require_once('template-parts/cover.php');?>
 
 		<!-- end of cover -->
 
@@ -68,7 +68,7 @@
 						</div>		
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-3" style="padding: 0 5px;margin-bottom: 100px;">
+				<div class="col-xs-12 col-sm-12 col-md-3" style="padding: 0 20px;margin-bottom: 100px;">
 
 					<!-- <h5 style="color: #0d3455;text-align: left;">MARKET STATS</h5> -->
 					

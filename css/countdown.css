@@ -388,26 +388,34 @@
 	list-style: circle;
 	margin-left: 20px;
 }
-.post-btns {
+.post-btns{
 	display: flex;
 	justify-content: space-around;
 	margin: 0 !important;
 }
-
-.post-btns button{
-	/*margin-left: 10px !important;*/
+.post-btns2{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 !important;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.post-btns2 label{
 	margin: 0 !important;
 	margin-right: 10px !important;
-	/*border:0;*/
+}
+.post-btns button{
+	margin: 0 !important;
+	margin-right: 10px !important;
 }
 .post-btns i{
 	color: #255b88;
 }
 .post-btns button:hover i{
-	/*background: #255b88;*/
 	color: #fff;
 }
-.post-btns button:hover{
+.post-btns2 label:hover, .post-btns button:hover{
 	background: #255b88;
 	color: #fff;
 	border: 1px solid #255b88;
@@ -427,8 +435,23 @@
 	outline: 0;
 	
 }
+.btn-black {
+    padding: 10px 70px;
+    background: #222;
+    border: 1px solid #4285f4;
+    color: #ccc;
+    font-size: 11px;
+}
+.btn-black:hover{
+	color: #fff;
+	background: #4285f4;
+}
+.commentarea{
+	border-bottom: 1px solid #f5f5f5;
+}
 #postCommentForm{
 	display: flex;
+	align-items: center;
 }
 .postCommentForm .commentField{
 	margin-right: 10px;
@@ -454,17 +477,42 @@
 	border: 2px solid #fff;
 }
 
+.mkt-btn2{
+	font-size: 11.5px;border-radius: 0;line-height: 20px;border:0;
+}
 
 
 
+.btn-primary, a.mkt-btn2, button.mtk-btn2{
+	background: linear-gradient(-45deg,#4481eb, #007bff) !important;
 
+}
+a.mkt-btn2:hover{
+	background: #000 !important;
+	color: #bbb;
+}
+a.mkt-btn2:hover i{
+	color: orange
+}
 
+.my-market-stats{
+	/*background: red;*/
+	clear: both;
+}
+.my-market-stats p{
+	font-size: 11.5px;
+	border-bottom: 1px solid #eee;
+	padding: 8px 0;
+	margin: 0;
+	clear: both;
+}
 
-
-
-
-
-
+.my-market-stats p span{
+	float: right;
+	margin-right: 10px;
+	background: linear-gradient(-45deg,#4481eb, #007bff);
+	color: #fff;
+}
 
 
 

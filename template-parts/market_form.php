@@ -2,7 +2,7 @@
 					    <!-- Modal content-->
 					    <div class="modal-content" style="margin-top: -10px;background: url('img/pattern/2.png');border-radius: 0 !important">
 					      <div class="" style="padding: 10px 10px;border:1px solid #fff">
-					      	<h5 style="letter-spacing: -1.5px;font-weight: 600;font-size: 20px;text-align: center;line-height: 40px;">CREATE MARKET</h5>
+					      	<!-- <h5 style="letter-spacing: -1.5px;font-weight: 600;font-size: 20px;text-align: center;line-height: 40px;">CREATE MARKET</h5> -->
 							<form method="post" class="create_marketForm" id="insert_form" style="padding-top: 10px;">
 								<div class="row" style="padding: 0 0px;">
 									<div class="form-group col-md-12" style="margin-top: -5px;">

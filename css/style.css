@@ -609,31 +609,17 @@ label #btn2, label #cancel2{
 .market-desc-text{
 	background:transparent;
 }
-.market-item  ol{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+.market-item  ul{
 }
-.market-item  ol li{
-	display: inline-block;
-	font-size: 11px;
-	padding: 5px 24px;
-	text-align: center;
-	background: #fafafa;
-	margin-bottom: 5px;
-	font-weight: 600;
+.market-item  ul li{
+	color: #fff;
 }
-.market-item ol li span{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	font-size: 12px;
-	font-weight: normal;
-	color: #161616;
-	letter-spacing: -1px;
+.market-item ul li span{
 
+}
+.mkt-ul li{
+	margin-top: 3px !important;
+	margin-bottom: 5px;
 }
 .mkt-btn{
 	background: linear-gradient(-45deg,#4481eb, #007bff);text-shadow: 50px 50px 150px #000;border:1px solid #208fee;color: #fff;font-size: 11px;border-radius: 0;
@@ -642,46 +628,7 @@ label #btn2, label #cancel2{
 .market-item .border-left{
 	 border-left:1px solid #666;
 }
-.update-items:hover img{
-}
-.update-items .updateBox{
-	background: #fff;
-	border:1px solid #fff;
-	margin-top: -10px;
-	padding: 10px;
-}
-.update-items img{
-	border:1px solid #fff;
-	transition: .5s ease-in-out;
-	/*position: absolute;*/
-}
-.update-items h5{
-	font-size: 12px;
-}
-.update-items p{
-	font-size: 11px;
-	margin-top: -5px;
-}
-.update-btn{
-	font-size: 11px;
-	letter-spacing: -1px;
-	padding: 7px 20px;
-	border:1px solid #f5f5f5;
-	background: #fafafa;
-}
-.update-btn i{
-	color: #337ab7;
-	margin-right: 3px;
-}
-.update-btn:hover{
-	background: #337ab7;
-	border:1px solid #337ab7;
-	/*margin-right: 3px;*/
-	color: #fff;
-}
-.update-btn:hover i{
-	color: #fff;
-}
+
 
 
 
@@ -1705,4 +1652,8 @@ img.career-chart:hover{
 	.market-stats {
 		display: none;
 	}
+	.mkt-btn2{
+		margin-bottom: 10px !important;
+	}
+
 }

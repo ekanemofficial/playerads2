@@ -9,7 +9,7 @@
 							<!-- <div class="" style="border:1px solid #000 !important"> -->
 
 								<h3>Creating Alternative assess to sport </h3>
-								<h2 style="color: #fff;text-shadow: 0 1px #fff, -1px 0 #fff, 1px 1px #fff, -1px -1px #fff"><span style="">Enthusiast</span></h2>
+								<h2 style="color: #fff;"><span style="">Enthusiast</span></h2>
 
 								<p style="">Playerads is a Sport Oriented, Marketing and Advertising Organisation Wi<span style="">th An Online Hub that Create Alternative access to Sport </span>Enthusiast. We aim to Reach, Identify, Nurture and Expose Talented Athletes to Lime-Light.</p>
 

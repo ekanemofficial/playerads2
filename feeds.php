@@ -44,18 +44,6 @@
 		alert('clicked');
 	});
 
-
-	// $(".panel-footer-x").hide();
-
-	// $(".commentBtn").click(function(){
-	// 	$(".panel-footer-x").hide(function(){
-	// 	    $(this).slideToggle();			
-	// 	});
-
-	// });
-
-
-
 </script>
 
 <form method="post" enctype="multipart/form-data" style="position: absolute;left: -2000px">
