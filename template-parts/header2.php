@@ -1,9 +1,3 @@
-<?php
-
-
-include('core/db.php');
-
-?>
 <!DOCTYPE html>
 <html>
 <head>
