@@ -1,3 +1,9 @@
+<?php
+
+
+include('core/db.php');
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -36,10 +42,11 @@
 					<li><a href="notification" class="btn btn-default account-btn"><i class="fa fa-bell"  style="color: #333"></i> 0 </a></li>
 					<li><a href="inbox" class="btn btn-primary account-btn"><i class="fa fa-envelope" style="color: #333"></i> 0 </a></li>
 					<li class="sub-menu">
-						<a href="#" class="btn btn-default account-btn" >
-						<i class="fa fa-cog"></i> Settings <span class="fa fa-caret-down" ></span> </a>
+						<a href="#" class="btn btn-default account-btn" style="display: flex;">
+							<img src="img/team3.jpg" class="img-responsive img-circle" style="width: 25px;height: auto;display: inline-block;margin-right: 5px;padding: 0">
+						 Account <span class="fa fa-caret-down" ></span> 
+						</a>
 						<ul>
-							<!-- <li><a href="users" style="font-size: 12px;"><i class="fa fa-user" ></i>Users</a></li> -->
 							<li><a href="profile" style="font-size: 10px;"><i class="fa fa-user" ></i>Profile</a></li>
 							<li><a href="edit_profile" style="font-size: 10px;"><i class="fa fa-image" ></i>Edit Profile</a></li>
 							<li><a href="manage_market" style="font-size: 10px;"><i class="fa fa-briefcase" ></i>Manage Market</a></li>

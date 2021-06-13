@@ -1,29 +1,23 @@
 <?php
+session_start();
 
 
+$host = "localhost";
+$user = "admin";
+$pass = "admin";
+$db   = "pa";
 
+$db_conx = mysqli_connect($host, $user, $pass, $db);
 
-//MySQL connection details.
-$host = 'localhost';
-$user = 'admin';
-$pass = 'admin';
-$database = 'pa';
+if(!$db_conx)
+{
+	echo "Could Not Connect To Database Server!";
 
-//Custom PDO options.
-$options = array(
-    PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-    PDO::ATTR_EMULATE_PREPARES => false
-);
+}else{
 
-//Connect to MySQL and instantiate our PDO object.
-$pdo = new PDO("mysql:host=$host;dbname=$database", $user, $pass, $options);
-
-
-
-
-
-
-
+	// echo "Database Connected";
+	// exit();
+}
 
 
 ?>

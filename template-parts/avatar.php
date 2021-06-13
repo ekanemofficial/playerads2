@@ -3,12 +3,7 @@
 	<div class="avatar" style="margin-bottom: 20px;z-index: 4">
 		<div class="wrap-avatar" style="background:#f6f6f7;height: auto;padding-bottom: 10px;">
 			<img src="img/team2.jpg" class="img-responsive">
-			<!-- <img src="img/c1.png" class="img-responsive"> -->
-
-
-			<!-- <button class="btn btn-default btn-account"><i class="stat-icon icon-add-friend-b"></i> Add Connection</button>	 -->
 			<button class="btn btn-default"><i class="stat-icon icon-add-friend-b"></i> Add Connection</button>	
-
 		</div>						
 		
 	</div>
@@ -27,6 +22,8 @@
 
 	</div>
 	
+
+	<?php require('template-parts/v_ads.php');?>
 
 
 	<div class="row" style="margin-bottom: 20px;">

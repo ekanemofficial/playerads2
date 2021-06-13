@@ -11,19 +11,28 @@
 				</div>
 
 
-				<div class="col-xs-12 col-sm-12 col-md-6" style="margin-bottom: 10px;">
+				<div class="col-xs-12 col-sm-12 col-md-6 clearfix" style="margin-bottom: 10px;">
 					<?php require_once('template-parts/top-info.php');?>
-					<?php require_once('template-parts/edit_personal.php');?>
-					<?php require_once('template-parts/edit_career.php');?>
-					<?php require_once('template-parts/career_exp.php');?>
+					<?php require('template-parts/h_ads.php');?>
+
+					<h5>Career Information</h5>
+					
+					<?php require('template-parts/career_info.php');?>
+
+					<?php require('template-parts/h_ads.php');?>
+
+					<h5>Career Experience</h5>
+					<?php require('template-parts/career_theme.php');?>
+					<a href="career.php" class="btn btn-default account-btn pull-right" style="display: block">View More...</a>
+					<br><br>
+
+					<?php require('template-parts/h_ads.php');?>
 					
 				</div>
 
 
 				<div class="col-xs-12 col-sm-12 col-md-3" style="padding: 0 20px;">
-					<?php require_once('template-parts/right-info.php');?>
-					<?php require_once('template-parts/friends.php');?>
-					<?php require_once('template-parts/connections.php');?>
+					<?php require_once('template-parts/right-sidebar.php');?>
 					
 					
 				</div>

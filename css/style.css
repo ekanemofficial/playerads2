@@ -1488,6 +1488,8 @@ img.career-chart:hover{
 		display: block;
 		z-index: 4;
 	}
+
+
 	header ul li a:hover{
 		background: #132139;
 		border: 0px solid #132139;
@@ -1655,5 +1657,11 @@ img.career-chart:hover{
 	.mkt-btn2{
 		margin-bottom: 10px !important;
 	}
-
+	.filter-sub li a{
+		color: #444 !important;
+	}
+	.filter-sub li a:hover{
+		background: linear-gradient(-45deg,#4481eb, #007bff);
+		color: #fff !important;
+	}
 }

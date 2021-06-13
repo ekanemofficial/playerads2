@@ -9,13 +9,13 @@
 					<div class="col-xs-6 col-sm-6 col-md-12">
 						<div class="postDate" style="padding-bottom: 10px;">
 							<h5>POSTED</h5>
-							<strong>12, <span> DEC 2021 </span></strong>
+							<strong>12TH <span> DEC </span></strong>
 						</div>
 					</div>
 					<div class="col-xs-6 col-sm-6 col-md-12">
 						<div class="expireDate" style="padding-bottom: 10px;">
 							<h5>EXPIRES</h5>
-							<strong>30 <span> SEPT 2021 </span></strong>
+							<strong>30TH <span> SEPT </span></strong>
 						</div>
 					</div>
 				</div>
@@ -70,12 +70,8 @@
 
 
 	<!-- horizontal ad -->
-	<div class="row" style="height: auto;padding-bottom: 5px;margin-bottom: 10px;">
-		<div class="col-md-2"></div>
-		<div class="col-md-8 text-center" style="">
-			<a href="#"><img src="img/ad.jpg" class="img-responsive"></a>
-		</div>
-	</div>
+		<?php require('template-parts/h_ads.php');?>
+
 
 
 
@@ -87,13 +83,13 @@
 					<div class="col-xs-6 col-sm-6 col-md-12">
 						<div class="postDate" style="padding-bottom: 10px;">
 							<h5>POSTED</h5>
-							<strong>12, <span> DEC 2021 </span></strong>
+							<strong>11-11-2021</strong>
 						</div>
 					</div>
 					<div class="col-xs-6 col-sm-6 col-md-12">
 						<div class="expireDate" style="padding-bottom: 10px;">
 							<h5>EXPIRES</h5>
-							<strong>30 <span> SEPT 2021 </span></strong>
+							<strong>21-11-2021</strong>
 						</div>
 					</div>
 				</div>
@@ -146,14 +142,7 @@
 		</div>
 	</div>
 
-	<!-- horizontal ad -->
-	<div class="row" style="height: auto;padding-bottom: 5px;margin-bottom: 10px;">
-		<div class="col-md-2"></div>
-		<div class="col-md-8 text-center" style="">
-			<a href="#"><img src="img/ad.jpg" class="img-responsive"></a>
-		</div>
-	</div>
-		
+		<?php require('template-parts/h_ads.php');?>
 
 
 
@@ -165,13 +154,18 @@
 					<div class="col-xs-6 col-sm-6 col-md-12">
 						<div class="postDate" style="padding-bottom: 10px;">
 							<h5>POSTED</h5>
-							<strong>12, <span> DEC 2021 </span></strong>
+							<strong>
+								<?php 
+								echo date("Y-m-d");
+								?>
+							</strong>
 						</div>
 					</div>
 					<div class="col-xs-6 col-sm-6 col-md-12">
 						<div class="expireDate" style="padding-bottom: 10px;">
 							<h5>EXPIRES</h5>
-							<strong>30 <span> SEPT 2021 </span></strong>
+								
+							<strong><?php echo date("Y-m-d"); ?></strong>
 						</div>
 					</div>
 				</div>
